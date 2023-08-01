@@ -2,16 +2,17 @@
     "name": "cozmot/module-base",
     "description": "Cozmot base module for Magento 2",
     "type": "magento2-module",
-    "version": "1.0.0",
-    "license": [
-        "Commercial"
-    ],
+    "version": "1.0.1",
+    "license": "proprietary",
     "authors": [
         {
             "name": "Cozmot",
-            "email": "info@cozmot.com"
+            "email": "info@cozmot.com",
+            "homepage": "https://cozmot.com",
+            "role": "Technical Support"
         }
     ],
+    "minimum-stability": "dev",
     "autoload": {
         "files": [
             "registration.php"
