@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--
+  ~ Cozmot
+  ~
+  ~ NOTICE OF LICENSE
+  ~ This source file is subject to the cozmot.com license that is
+  ~ available through the world-wide-web at this URL:
+  ~ https://cozmot.com/end-user-license-agreement
+  ~
+  ~ DISCLAIMER
+  ~
+  ~ Do not edit or add to this file if you wish to upgrade this extension to newer
+  ~ version in the future.
+  ~
+  ~ @category    Commerce
+  ~ @package     Module
+  ~ @copyright   Copyright (c) Cozmot (https://cozmot.com/)
+  ~ @license     https://cozmot.com/end-user-license-agreement
+  ~
+  -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="controller_action_predispatch_adminhtml">
+        <observer name="cozmot_admin_update_notification" instance="Cozmot\Base\Observer\GetCozmotUpdate"/>
+    </event>
+</config>

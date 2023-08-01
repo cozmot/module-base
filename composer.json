@@ -1,0 +1,23 @@
+{
+    "name": "cozmot/module-base",
+    "description": "Cozmot base module for Magento 2",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "Commercial"
+    ],
+    "authors": [
+        {
+            "name": "Cozmot",
+            "email": "info@cozmot.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Cozmot\\Base\\": ""
+        }
+    }
+}
